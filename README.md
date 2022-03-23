@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="https://i.imgur.com/bSVdIck.pngf" alt="Logo" width="1000">
+    <img src="/design/layout_index.png" alt="Logo" width="1000">
 
   <h3 align="center">Pomodoro by <a href="https://github.com/lucasilvafon">Lucas Fonseca</a></h3>
  <br />
