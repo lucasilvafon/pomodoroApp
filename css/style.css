@@ -53,8 +53,23 @@ input {
   height: 40px;
   width: 40px;
   background-color: #3c4262;
-  color: #fff;
+  color: #333853;
   border-radius: 50%;
+}
+.arrow .content {
+  display: none;
+}
+.arrow::before {
+  content: ' ';
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid white;
+  transform: translateY(-6px);
+}
+.arrow.down::before {
+  transform: rotate(180deg) translateY(-6px);
 }
 .time-box {
   text-align: center;
