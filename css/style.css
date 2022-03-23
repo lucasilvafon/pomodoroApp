@@ -4,7 +4,6 @@
 html,
 body {
   height: 100%;
-  width: 100%;
   background-color: #333853;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -23,7 +22,6 @@ body {
 }
 .wrapper {
   display: flex;
-  justify-content: space-evenly;
 }
 .time-card {
   display: flex;
@@ -39,21 +37,18 @@ input {
   color: #fff;
   border-radius: 20%;
   font-weight: 700;
-  font-size: 84px;
+  font-size: 85px;
 }
 .arrow {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-size: 24px;
   margin-bottom: 10px;
-  margin-left: 10px;
   margin-right: 10px;
   height: 40px;
   width: 40px;
   background-color: #3c4262;
-  color: #333853;
   border-radius: 50%;
 }
 .arrow .content {
